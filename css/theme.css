@@ -1,0 +1,33 @@
+:root{
+    --pg:#555555;
+    --brand1:#FDA409;
+    --brand2:#128D41;
+    --white:#ffffff;
+    --black:#353535;
+    --border:1px solid red;
+}
+
+p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "open-sans-regular";
+}
+
+
+@font-face {
+    font-family: 'Barlow_Condensed-regular';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf');
+}
+@font-face {
+    font-family: 'Barlow_Condensed-Medium';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf');
+}
+@font-face {
+    font-family: 'Barlow_Condensed-SemiBold';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Barlow_Condensed-Bold';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf');
+}

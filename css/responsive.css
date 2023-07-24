@@ -1,0 +1,115 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+    .banner_content_1 h3{
+        font-size: 22px;
+    }
+    .banner_content_1 h1{
+        font-size: 60px;
+    }
+    .banner_content_1 .place_date{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner_content_1 .timer{
+        width: 60%;
+    }
+    .banner_content_1 .timer .time{
+        width: 25%;
+        font-size: 40px;
+        
+    }
+    .banner_content_1 .timer span{
+        font-size: 18px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .banner_content_1 h3{
+        font-size: 30px;
+    }
+    .banner_content_1 h1{
+        font-size: 80px;
+    }
+    .banner_content_1 .place_date{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .banner_content_1 .timer .time{
+        width: 25%;
+        font-size: 48px;
+        
+    }
+    .banner_content_1 .timer span{
+        font-size: 20px;
+    }
+
+    /* program start  */
+    #program_schedule .program_detail_wrap .single_propram{
+        margin-bottom: 0px;
+    }
+    #program_schedule .program_detail_wrap::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #program_schedule .program_detail_wrap .single_propram .inner_wrap{
+        width: 40%;
+        /* margin-left: auto; */
+    }
+    #program_schedule .program_detail_wrap .single_propram .inner_wrap .circle_img{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* program end  */
+    .achievement_item{
+        margin-bottom: 0px;
+    
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .banner_content_1 h3{
+        font-size: 30px;
+    }
+    .banner_content_1 h1{
+        font-size: 100px;
+    }
+    .banner_content_1 .place_date{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .banner_content_1 .timer{
+        width: 50%;
+    }
+    .banner_content_1 .timer .time{
+        width: 25%;
+        font-size: 50px;
+        
+    }
+    .banner_content_1 .timer span{
+        font-size: 20px;
+    }
+    .slicknav_menu{
+        display: none;
+    }
+    #top_header{
+        display: block;
+    }
+    #banner{
+        padding-top: 0px;
+    }
+    .nav_bar{
+        display: block;
+    }
+    .logo_sticknav{
+        display: none;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
