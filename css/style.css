@@ -1,4 +1,9 @@
+header{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
 
+}
 #top_header{
     background-color: var(--brand1);
     border-bottom: .1px solid gainsboro;
@@ -85,15 +90,18 @@
 
 
 /* banner slick slid start  */
-#banner{
-    padding-top: 49px;
-}
+
 #banner .banner_1{
     background-image: url(../images/banner/banner_img_1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-bottom: 30px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 30px; */
     /* background-attachment: fixed; */
 }
 .slick-dots {
@@ -153,6 +161,7 @@
     padding: 30px 10px;
     text-align: center;
     position: relative;
+    z-index: 10;
 
 }
 .banner_1 .overlay{
@@ -369,3 +378,16 @@
     height: 600px;
     background-color: red;
 }
+
+/* convocation part start */
+#convocation{
+    padding: 30px 0px;
+}
+/* .year_container{}
+.year_container .year{}
+.year_container .year button{}
+.notice_container{} */
+.hidden {
+    display: none;
+}
+/* convocation part end */

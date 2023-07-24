@@ -48,3 +48,21 @@ function updateCountdown() {
   
   // Call the updateCountdown function every second to keep the countdown updated
   setInterval(updateCountdown, 1000);
+
+
+
+  function showContent(contentId) {
+    // Hide all content divs first
+    console.log(`clicke ${contentId}`)
+    var contentDivs = document.querySelectorAll('#notice_container > div');
+    contentDivs.forEach(function(div) {
+      console.log(`hidden`)
+      div.classList.add('hidden');
+    });
+  
+    // Show the selected content div
+    var selectedContent = document.getElementById(contentId);
+    if (selectedContent) {
+      selectedContent.classList.remove('hidden');
+    }
+  }
