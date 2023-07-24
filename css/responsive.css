@@ -106,6 +106,28 @@
     .logo_sticknav{
         display: none;
     }
+
+    /* speaker part start  */
+    .speaker_container:hover{
+        transform: translateY(-10px);
+    }
+    .speaker_container .image_wraper::after{
+        bottom: -50%;
+        opacity: 0;
+    }
+    .speaker_container:hover .image_wraper::after{
+        bottom: 0;
+        opacity: .9;
+    }
+    .speaker_container .speaker_info .speaker_social_link ul li a{
+        background: #ed03be;
+        color: white;
+    }
+    .speaker_container:hover .speaker_info .speaker_social_link ul li a{
+        background: #fff;
+        color: #ed03be;
+    }
+    /* speaker part end  */
  }
 
 /* X-Large devices (large desktops, 1200px and up)  */

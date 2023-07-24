@@ -66,3 +66,12 @@ function updateCountdown() {
       selectedContent.classList.remove('hidden');
     }
   }
+
+  var typed = new Typed('.note_text', {
+    strings: ["special note:", "requested to collect their convocation materials"],
+    typeSpeed: 50,
+    backSpeed: 10,
+    startDelay: 500,
+    backDelay: 1000,
+    loop: true,
+  });
