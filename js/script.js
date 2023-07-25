@@ -74,17 +74,27 @@ function updateCountdown() {
     startDelay: 500,
     backDelay: 1000,
     loop: true,
-    showCursor: false,
   });
+  
 
 
-  function showPhase(phase) {
-      const phases = document.getElementsByClassName("phase");
-      for (const phaseElement of phases) {
-          if (phaseElement.id === phase) {
-              phaseElement.classList.remove("d-none");
-          } else {
-              phaseElement.classList.add("d-none");
-          }
-      }
-  }
+
+
+  // Get the elements
+const viewMessageButton = document.getElementById('viewMessageButton');
+const popupContainer = document.getElementById('popupContainer');
+const closeButton = document.getElementById('closeButton');
+
+// Function to show the popup
+function showPopup() {
+  popupContainer.style.display = 'block';
+}
+
+// Function to close the popup
+function closePopup() {
+  popupContainer.style.display = 'none';
+}
+
+// Event listeners
+viewMessageButton.addEventListener('click', showPopup);
+closeButton.addEventListener('click', closePopup);
