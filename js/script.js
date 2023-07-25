@@ -74,4 +74,17 @@ function updateCountdown() {
     startDelay: 500,
     backDelay: 1000,
     loop: true,
+    showCursor: false,
   });
+
+
+  function showPhase(phase) {
+      const phases = document.getElementsByClassName("phase");
+      for (const phaseElement of phases) {
+          if (phaseElement.id === phase) {
+              phaseElement.classList.remove("d-none");
+          } else {
+              phaseElement.classList.add("d-none");
+          }
+      }
+  }
