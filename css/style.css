@@ -46,6 +46,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: end;
+    color: #3ead5f;
     font-family: 'Barlow_Condensed-Medium'
 }
 #menu li{
@@ -56,7 +57,7 @@ header{
     transition:all ease-in-out .4s;
 }
 #menu li a:hover{
-    color: white;
+    color: rgb(236, 221, 11);
     cursor: pointer;
     
 }
