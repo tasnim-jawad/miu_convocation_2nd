@@ -524,7 +524,81 @@ header{
 
 
 /* speech part start  */
+#speech{}
+#speech .speech_img{}
+#speech .speech_img img{
+    width: 100%;
+}
+#speech .speech_container{
+    padding:0px 15px;
+}
+#speech .speech_container h3{
+    font-family: 'Barlow_Condensed-Bold';
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+#speech .speech_container h4{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+    color: gray;
+    font-family: 'Barlow_Condensed-Medium';
+    text-transform: uppercase;
+}
+#speech .speech_container p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 20px;
+}
+#speech .experience_container{
+    background: #ed03be;
+    padding: 15px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
 
+}
+#speech .experience_container .left_icon{
+    width: 60px;
+    height: 60px;
+    background: #423ead;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#speech .experience_container .left_icon .icon{}
+#speech .experience_container .left_icon .icon a{
+    color: #fff;
+    font-size: 30px;
+}
+#speech .experience_container .left_icon .icon a i{}
+#speech .experience_container .right_detail{
+    width: calc(100% - 60px);
+    padding-left: 24px;
+}
+#speech .experience_container .right_detail h3{
+    font-family: 'Barlow_Condensed-SemiBold';
+    font-size: 32px;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+#speech .experience_container .right_detail p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: 'Barlow_Condensed-SemiBold';
+    letter-spacing: 1.5px;
+}
 /* speech part end  */
 
 
