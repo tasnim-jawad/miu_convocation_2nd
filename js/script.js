@@ -68,23 +68,33 @@ function updateCountdown() {
   }
 
   var typed = new Typed('.note_text', {
-    strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের গ্রাউন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
+    strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের উন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
     typeSpeed: 50,
     backSpeed: 10,
     startDelay: 500,
     backDelay: 1000,
     loop: true,
-    showCursor: false,
   });
+  
 
 
-  function showPhase(phase) {
-      const phases = document.getElementsByClassName("phase");
-      for (const phaseElement of phases) {
-          if (phaseElement.id === phase) {
-              phaseElement.classList.remove("d-none");
-          } else {
-              phaseElement.classList.add("d-none");
-          }
-      }
-  }
+
+
+  // Get the elements
+const viewMessageButton = document.getElementById('viewMessageButton');
+const popupContainer = document.getElementById('popupContainer');
+const closeButton = document.getElementById('closeButton');
+
+// Function to show the popup
+function showPopup() {
+  popupContainer.style.display = 'block';
+}
+
+// Function to close the popup
+function closePopup() {
+  popupContainer.style.display = 'none';
+}
+
+// Event listeners
+viewMessageButton.addEventListener('click', showPopup);
+closeButton.addEventListener('click', closePopup);
