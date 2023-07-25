@@ -492,7 +492,6 @@ header{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.speaker_container .speaker_info .speaker_social_link{}
 .speaker_container .speaker_info .speaker_social_link ul{
     display: flex;
     flex-wrap: wrap;
@@ -518,9 +517,15 @@ header{
     color: #ed03be;
     transition: all 0.3s ease;
 }
-.speaker_container .speaker_info .speaker_social_link ul li a i{}
+
 
 /* speaker part end  */
+
+
+/* speech part start  */
+
+/* speech part end  */
+
 
 
 #test{
@@ -540,4 +545,6 @@ header{
 .hidden {
     display: none;
 }
+
+
 /* convocation part end */
