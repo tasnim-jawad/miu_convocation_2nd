@@ -66,6 +66,12 @@
         margin-bottom: 0px;
     
     }
+
+    #speech .experience_container{
+        /* margin-left: -110px; */
+        transform: translateX(-110px);
+        width: 70%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
