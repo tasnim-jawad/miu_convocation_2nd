@@ -83,7 +83,7 @@ header{
     font-family: 'Barlow_Condensed-Medium'
 }
 .slicknav_nav a:hover {
-    color: #222 !important;
+    color: rgb(255, 255, 255) !important;
 }
 /* slicknav end  */
 
@@ -173,7 +173,7 @@ header{
 }
 .banner_1 .special_note{
     position: absolute;
-    bottom: 8%;
+    bottom: 15%;
     z-index: 20;
     width: inherit;
     text-align: center;
@@ -181,8 +181,8 @@ header{
 .banner_1 .special_note span{
     color: rgb(255, 255, 255);
     font-family: 'Barlow_Condensed-regular';
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 30px;
     text-transform: capitalize;
     background-color:rgba(86, 44, 90, 0.5);
     /* padding: 5px 10px; */
