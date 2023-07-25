@@ -68,7 +68,7 @@ function updateCountdown() {
   }
 
   var typed = new Typed('.note_text', {
-    strings: ["special note:", "requested to collect their convocation materials"],
+    strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের গ্রাউন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
     typeSpeed: 50,
     backSpeed: 10,
     startDelay: 500,
