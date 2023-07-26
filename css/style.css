@@ -92,8 +92,8 @@ header{
 
 /* banner slick slid start  */
 
+
 #banner .banner_every{
-    /* background-image: url(../images/banner/banner_img_1.jpeg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -786,4 +786,5 @@ header{
   .popupContent::-webkit-scrollbar {
     display: none;
   }
-  
+/*Notice Section Start */
+
