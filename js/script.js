@@ -171,5 +171,3 @@ closeButton.addEventListener('click', closePopup);
 
 
 
-
-
