@@ -92,26 +92,10 @@ header{
 
 /* banner slick slid start  */
 
-<<<<<<< HEAD
-#banner .banner_1{
-    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    /* padding-bottom: 30px; */
-    /* background-attachment: fixed; */
-}
-#banner .banner_2{
-    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
-=======
+
 #banner .banner_every{
     /* background-image: url(../images/banner/banner_img_1.jpeg); */
->>>>>>> 4a1b41bc88924c5c43301de03c2a388d3c3486c9
+>>>>>>>>> Temporary merge branch 2
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
