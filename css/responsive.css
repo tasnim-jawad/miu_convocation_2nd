@@ -1,5 +1,12 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
+    .banner_1 .special_note{
+        bottom: 10%;
+    }
+    .banner_1 .special_note span{
+        font-size: 20px;
+        line-height: 20px;
+    }
     .banner_content_1 h3{
         font-size: 22px;
     }
@@ -25,6 +32,13 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    .banner_1 .special_note{
+        bottom: 12%;
+    }
+    .banner_1 .special_note span{
+        font-size: 24px;
+        line-height: 24px;
+    }
     .banner_content_1 h3{
         font-size: 30px;
     }
@@ -47,35 +61,44 @@
 
     /* program start  */
     #program_schedule .program_detail_wrap .single_propram{
-        margin-bottom: 0px;
+        margin-bottom: -30px;
     }
     #program_schedule .program_detail_wrap::before{
         left: 50%;
         transform: translateX(-50%);
     }
     #program_schedule .program_detail_wrap .single_propram .inner_wrap{
-        width: 40%;
+        width: 45%;
+        padding-left: 0px;
         /* margin-left: auto; */
     }
     #program_schedule .program_detail_wrap .single_propram .inner_wrap .circle_img{
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%,19%);
     }
     /* program end  */
     .achievement_item{
         margin-bottom: 0px;
     
     }
-
     #speech .experience_container{
         /* margin-left: -110px; */
         transform: translateX(-110px);
         width: 70%;
     }
+
+    
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .banner_1 .special_note{
+        bottom: 15%;
+    }
+    .banner_1 .special_note span{
+        font-size: 30px;
+        line-height: 30px;
+    }
     .banner_content_1 h3{
         font-size: 30px;
     }
@@ -134,10 +157,18 @@
         color: #ed03be;
     }
     /* speaker part end  */
+
+    
  }
 
 /* X-Large devices (large desktops, 1200px and up)  */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+    .speach_pink{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+ }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }

@@ -31,3 +31,23 @@ p{
     font-family: 'Barlow_Condensed-Bold';
     src: url('../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf');
 }
+
+
+
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}

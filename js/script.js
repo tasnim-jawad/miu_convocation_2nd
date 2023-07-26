@@ -1,3 +1,6 @@
+
+
+// *************************** for slider* **********************
 jQuery(function() { 
     // alert("my name showed")
     $('.banner_all').slick({
@@ -15,12 +18,15 @@ jQuery(function() {
       });
     
 })
-
+// *************************** for nav ***********************
 $('#menu').slicknav({
     label: '',
     duration:'400',
 });
 
+
+
+// *************************** for timer ***********************
 function updateCountdown() {
     const targetDate = new Date("2023-07-30T14:59:59"); // Set your target date and time here (format: "YYYY-MM-DDTHH:mm:ss")
     const now = new Date().getTime();
@@ -50,7 +56,7 @@ function updateCountdown() {
   setInterval(updateCountdown, 1000);
 
 
-
+// *************************** for nitic (not used)***********************
   function showContent(contentId) {
     // Hide all content divs first
     console.log(`clicke ${contentId}`)
@@ -67,6 +73,37 @@ function updateCountdown() {
     }
   }
 
+
+
+// *************************** for showPhase ***********************
+  function showPhase(phase) {
+    const phases = document.getElementsByClassName("phase");
+    for (const phaseElement of phases) {
+        if (phaseElement.id === phase) {
+            phaseElement.classList.remove("d-none");
+        } else {
+            phaseElement.classList.add("d-none");
+        }
+    }
+}
+
+
+// *************************** for typing animation ***********************
+  function getScreenWidth() {
+    return window.screen.width;
+  }
+
+  // Example usage:
+  var screen_size = getScreenWidth();
+  console.log("Screen Width: " + screen_size);
+
+  // Define the showCursor variable based on screen size
+  var showCursor = true;
+  if (screen_size > 767) {
+    showCursor = true;
+  } else {
+    showCursor = false;
+  }
   var typed = new Typed('.note_text', {
     strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের উন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
     typeSpeed: 50,
@@ -74,17 +111,28 @@ function updateCountdown() {
     startDelay: 500,
     backDelay: 1000,
     loop: true,
-    showCursor: false,
+    showCursor: showCursor,
   });
+  
 
 
-  function showPhase(phase) {
-      const phases = document.getElementsByClassName("phase");
-      for (const phaseElement of phases) {
-          if (phaseElement.id === phase) {
-              phaseElement.classList.remove("d-none");
-          } else {
-              phaseElement.classList.add("d-none");
-          }
-      }
-  }
+
+// *************************** for popup ***********************
+  // Get the elements
+const viewMessageButton = document.getElementById('viewMessageButton');
+const popupContainer = document.getElementById('popupContainer');
+const closeButton = document.getElementById('closeButton');
+
+// Function to show the popup
+function showPopup() {
+  popupContainer.style.display = 'block';
+}
+
+// Function to close the popup
+function closePopup() {
+  popupContainer.style.display = 'none';
+}
+
+// Event listeners
+viewMessageButton.addEventListener('click', showPopup);
+closeButton.addEventListener('click', closePopup);
