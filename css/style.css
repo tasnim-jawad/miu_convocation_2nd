@@ -809,6 +809,29 @@ header{
 
 /* ********************* Style for the popup end **************** */
 /* messages part end  */
+/* ********************* map part start **************** */
+#map{
+    padding-bottom:60px;
+}
+#map .vanue_title{
+    margin-bottom: 40px;
+}
+.vanue_name{
+    
+}
+.vanue_name h3{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Poppins-Medium';
+}
+.map_container{
+    width: 100%;
+}
+.map_container iframe{
+    width: 100%;
+}
+/* ********************* map part end **************** */
 
 
   /* Style for the footer section */
@@ -868,6 +891,4 @@ footer {
     font-size: 14px;
   }
   
-  /* FontAwesome CSS (for social icons) - Replace this with your FontAwesome link */
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
   
