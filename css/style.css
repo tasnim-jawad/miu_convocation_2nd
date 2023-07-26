@@ -47,7 +47,7 @@ header{
     align-items: center;
     justify-content: end;
     color: #3ead5f;
-    font-family: 'Barlow_Condensed-Medium'
+    font-family: 'emoji'
 }
 #menu li{
     margin-left: 30px;
@@ -337,8 +337,8 @@ header{
 #program_schedule .program_detail_wrap .single_propram .inner_wrap .circle_img{
     position: absolute;
     background: #1EC6B6;
-    width: 26px;
-    height: 26px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     left: 0;
     transform: translate(0%, 20%);
