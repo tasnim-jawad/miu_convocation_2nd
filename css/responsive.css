@@ -86,6 +86,23 @@
         transform: translateX(-110px);
         width: 70%;
     }
+    .speaker_information{
+        height: 100%;
+        padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+
+    }
+    .speaker_information h2{
+        text-align: left;
+    }
+    .speaker_information h4{
+        text-align: left;
+    }
+
 
     
 }

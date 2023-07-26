@@ -39,7 +39,7 @@ header{
     display: none;
 }
 .nav_bar .logo img{
-    height: 50px;
+    height: 70px;
 }
 #menu{
     display: flex;
@@ -69,6 +69,12 @@ header{
     position: absolute;
     width: 100%;
     z-index: 10;
+    height: 80px;
+    padding: 0px;
+}
+.slicknav_nav{
+    background-color: var(--brand1);
+    transform: translateY(8px);
 }
 .logo_sticknav{
     position: absolute;
@@ -77,8 +83,11 @@ header{
     z-index: 20;
 }
 .logo_sticknav img{
-    height: 38px;
+    height: 70px;
 
+}
+.slicknav_btn{
+    margin: 22px 10px 22px;
 }
 .slicknav_nav a {
     font-family: 'Barlow_Condensed-Medium'
@@ -443,11 +452,11 @@ header{
     overflow: hidden;
     position: relative;
     transition: all 0.3s ease;
-    max-width: 250px;
+    max-width: 300px;
     margin-inline: auto;
 }
 .speaker_container .image_wraper{
-    height: 350px;
+    height: 400px;
     position: relative;
     z-index: 0;
     overflow: hidden;
@@ -461,12 +470,16 @@ header{
     width: 100%;
     height: 50%;
     content: '';
-    opacity: .9;
+    opacity: 0;
     transition: all 0.3s ease;
-    bottom: 0;
+    bottom: -60%;
     left: 0;
     right: 0;
     transform: matrix(1, 0.3, 0, 1, 0, 0);
+}
+.speaker_container:hover .image_wraper::after{
+    bottom: 0;
+    opacity: .9;
 }
 .speaker_image_1{
     background-image: url(../images/speaker/Shahabuddin.jpg);
@@ -537,19 +550,41 @@ header{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: white;
+    background: #ed03be;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    color: #ed03be;
+    color: white;
     transition: all 0.3s ease;
+}
+.speaker_container:hover .speaker_info .speaker_social_link ul li a{
+    color: #ed03be;
+    background: white;
 }
 
 
 /* speaker part end  */
-
+.speaker_information{}
+.speaker_information h2{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Poppins-Medium';
+    text-align: center;
+}
+.speaker_information h4{
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'Poppins-regular';
+    text-align: center;
+}
 
 /* speech part start  */
 #speech{
