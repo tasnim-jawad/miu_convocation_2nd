@@ -184,10 +184,10 @@ header{
 .banner_1{
     position: relative;
 }
-.banner_4 .overlay,
-.banner_3 .overlay,
-.banner_2 .overlay,
-.banner_1 .overlay{
+.banner_4 .overlay_banner,
+.banner_3 .overlay_banner,
+.banner_2 .overlay_banner,
+.banner_1 .overlay_banner{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -195,7 +195,7 @@ header{
     position: absolute;
 }
 
-.banner_4 .overlay{
+.banner_4 .overlay_banner{
     background-color: rgba(0, 0, 0, .3);
 }
 .banner_every .special_note{
@@ -372,7 +372,7 @@ header{
     padding: 110px 0px;
     position: relative;
 }
-#achievement .overlay{
+#achievement .overlay_achievement{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -717,74 +717,65 @@ header{
     border: 1px solid var(--brand2);
     color: var(--brand2);
 }
-
-/* messages part end  */
-
-/* convocation part start */
-#convocation{
-    padding: 30px 0px;
+/* ********************* Style for the popup start **************** */
+.overlay .modal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: calc(100% - 4rem);
+    padding: 0px;
 }
-/* .year_container{}
-.year_container .year{}
-.year_container .year button{}
-.notice_container{} */
-.hidden {
-    display: none;
+.modal .model_content{}
+.modal .model_content .modal_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.modal .model_content .modal_header h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-family: 'Poppins-Medium';
+}
+.modal .model_content .modal_header a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: #999999;
+    text-align: center;
 }
 
-
-/* convocation part end */
-
-
-
-
-
-/* Style for the button to trigger the popup */
-#viewMessageButton {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Style for the popup container */
-  #popupContainer {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
+.modal .popup_content{
+    padding: 0px 20px 20px;
+}
+.modal .popup_content .image_container{
+    width: 225px;
+    height: 250px;
+    float: left;
+    border-radius: 2px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+}
+.modal .popup_content .image_container img{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  /* Style for the close button */
-  #closeButton {
-    color: #fff;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
-  /* Style for the popup content */
-  .popupContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-width: 400px;
-  }
-  
-  /* Hide the scroll bar for the popup content */
-  .popupContent::-webkit-scrollbar {
-    display: none;
-  }
+    object-fit: cover;
+    object-position: top center;
+}
+.modal .popup_content p{
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+
+}
+
+/* ********************* Style for the popup end **************** */
+/* messages part end  */
+
+
+
 /*Notice Section Start */
 

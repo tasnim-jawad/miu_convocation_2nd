@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
 
+    <!-- overlay popup css link -->
+    <link rel="stylesheet" href="css/overlay.css">
+
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
@@ -90,7 +93,7 @@
         <div class="banner_container">
             <div class="banner_all">
                 <div class="banner_every banner_1">
-                    <div class="overlay"></div>
+                    <div class="overlay_banner"></div>
                     <div class="special_note">
                         <span class="note_text_1"></span>
                     </div>
@@ -129,7 +132,7 @@
                     </div>
                 </div>
                 <div class="banner_every banner_2">
-                    <div class="overlay"></div>
+                    <div class="overlay_banner"></div>
                     <div class="special_note">
                         <span class="note_text_2"></span>
                     </div>
@@ -165,7 +168,7 @@
                     </div>
                 </div>
                 <div class="banner_every banner_3">
-                    <div class="overlay"></div>
+                    <div class="overlay_banner"></div>
                     <div class="special_note">
                         <span class="note_text_3"></span>
                     </div>
@@ -201,7 +204,7 @@
                     </div>
                 </div>
                 <div class="banner_every banner_4">
-                    <div class="overlay"></div>
+                    <div class="overlay_banner"></div>
                     <div class="special_note">
                         <span class="note_text_4"></span>
                     </div>
@@ -806,7 +809,7 @@
 
     </section>
     <section id="achievement">
-        <div class="overlay"></div>
+        <div class="overlay_achievement"></div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3">
@@ -879,43 +882,42 @@
                             <h5 class="member_designation">President</h5>
                             <p class="institute">People's Republic of Bangladesh
                                 Bangabhaban, Dhaka</p>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="year_container">
-                                            <div class="year">
-                                                    <!-- Button to trigger the popup -->
-                                                    <button id="viewMessageButton">View Message</button>
-                    
-                                                    <!-- The popup container -->
-                                                    <div id="popupContainer">
-                                                        <!-- Close button for the popup -->
-                                                        <span class="close" id="closeButton">&times;</span>
-                    
-                                                        <!-- Popup content -->
-                                                        <div class="popupContent">
-                                                            <img src="images/speech/atik.jpeg" alt="Popup Image">
-                                                            <h2>Massage from PM</h2>
-                                                            <p>
-                                                                Hon’ble Chairman, BOT, MIU
-                    
-                                                                Manarat International University is a unique academic institute which has
-                                                                different set of visions. We established MIU in order to provide quality
-                                                                education and instill moral values to the students and thereby make them
-                                                                educated future leaders with high moral standards. The Board of Trustees has
-                                                                no profit motive and no one takes a single penny of profit from this
-                                                                institute. Our sole goal is to serve the humanity. By the grace of Almighty
-                                                                Allah, our university is gradually moving towards fulfilling the hopes and
-                                                                dreams of our nation by creating skilled manpower and the required
-                                                                leadership qualities. May Allah grant MIU success so that it can produce
-                                                                worthy citizens for the cause of mankind.
-                                                            </p>
-                                                            <h3></h3>
-                                                        </div>
-                                                    </div>
+                            <div class="view">
+                                <a data-overlay-trigger="Shahabuddin" href="#!">view message</a>
+                            </div>
+                            <div class="overlay" id="Shahabuddin">
+                                <div class="modal">
+                                    <div class="model_content">
+                                        <div class="modal_header">
+                                            <h2>Massage from PM</h2>
+                                            <div class="cancel">
+                                                <a href="#!" onclick="$('.overlay#demo').trigger('hide');return false;">&#215;</a>
                                             </div>
+                                        </div>
+                                        <div class="popup_content">
+                                            <div class="image_container">
+                                                <img src="images/speech/atik.jpeg" alt="Popup Image">
+                                            </div>
+                                            <p>
+                                                Hon’ble Chairman, BOT, MIU
+                            
+                                                Manarat International University is a unique academic institute which has
+                                                different set of visions. We established MIU in order to provide quality
+                                                education and instill moral values to the students and thereby make them
+                                                educated future leaders with high moral standards. The Board of Trustees has
+                                                no profit motive and no one takes a single penny of profit from this
+                                                institute. Our sole goal is to serve the humanity. By the grace of Almighty
+                                                Allah, our university is gradually moving towards fulfilling the hopes and
+                                                dreams of our nation by creating skilled manpower and the required
+                                                leadership qualities. May Allah grant MIU success so that it can produce
+                                                worthy citizens for the cause of mankind.
+                    
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga in ratione quasi animi nulla delectus voluptates dolorum, assumenda, cupiditate ad, repellat cumque? Dolore earum repudiandae minus quibusdam. Labore obcaecati minima ab ipsam soluta consequatur quidem autem minus aliquid quo perferendis atque laboriosam porro impedit, repudiandae et repellat tenetur temporibus quibusdam aperiam aliquam blanditiis est! Ea, nesciunt consequuntur? Vitae, rem ducimus? Hic, et numquam. Cum tempore facere quod, obcaecati dolores nihil atque natus molestiae quisquam amet consequatur dicta, numquam quasi. Quae ut libero, fuga vel praesentium natus modi tempore vero quisquam exercitationem repudiandae aut harum. Qui obcaecati debitis soluta voluptatibus, laboriosam repudiandae dolor reiciendis quidem laborum architecto officia fugit odit blanditiis, dolorem nesciunt, quo quaerat? Error debitis numquam ad, ducimus ea vel nostrum molestiae fuga expedita nulla sit delectus labore nihil cumque magni nam aut dicta laudantium ex illum. Aut ipsam aperiam fuga hic accusantium id expedita perferendis, error magni aspernatur ipsum totam, consectetur autem iste repellendus odit aliquid quos dolorem? Beatae inventore qui cumque iste esse similique asperiores est laborum tempora! Et dolores error obcaecati consectetur, harum eos totam eligendi optio eius amet. Enim alias hic officiis at vel quae fugit architecto repellat placeat, quas perspiciatis consequuntur adipisci accusantium reiciendis?
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -929,7 +931,40 @@
                             <h5 class="member_designation">Prime Minister</h5>
                             <p class="institute">Government of The People's Republic of Bangladesh</p>
                             <div class="view">
-                                <a href="#">view message</a>
+                                <a data-overlay-trigger="hasina" href="#!">view message</a>
+                            </div>
+                            <div class="overlay" id="hasina">
+                                <div class="modal">
+                                    <div class="model_content">
+                                        <div class="modal_header">
+                                            <h2>Massage from PM hasina</h2>
+                                            <div class="cancel">
+                                                <a href="#!" onclick="$('.overlay#hasina').trigger('hide');return false;">&#215;</a>
+                                            </div>
+                                        </div>
+                                        <div class="popup_content">
+                                            <div class="image_container">
+                                                <img src="images/speech/atik.jpeg" alt="Popup Image">
+                                            </div>
+                                            <p>
+                                                Hon’ble Chairman, hasina
+                            
+                                                Manarat International University is a unique academic institute which has
+                                                different set of visions. We established MIU in order to provide quality
+                                                education and instill moral values to the students and thereby make them
+                                                educated future leaders with high moral standards. The Board of Trustees has
+                                                no profit motive and no one takes a single penny of profit from this
+                                                institute. Our sole goal is to serve the humanity. By the grace of Almighty
+                                                Allah, our university is gradually moving towards fulfilling the hopes and
+                                                dreams of our nation by creating skilled manpower and the required
+                                                leadership qualities. May Allah grant MIU success so that it can produce
+                                                worthy citizens for the cause of mankind.
+                    
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga in ratione quasi animi nulla delectus voluptates dolorum, assumenda, cupiditate ad, repellat cumque? Dolore earum repudiandae minus quibusdam. Labore obcaecati minima ab ipsam soluta consequatur quidem autem minus aliquid quo perferendis atque laboriosam porro impedit, repudiandae et repellat tenetur temporibus quibusdam aperiam aliquam blanditiis est! Ea, nesciunt consequuntur? Vitae, rem ducimus? Hic, et numquam. Cum tempore facere quod, obcaecati dolores nihil atque natus molestiae quisquam amet consequatur dicta, numquam quasi. Quae ut libero, fuga vel praesentium natus modi tempore vero quisquam exercitationem repudiandae aut harum. Qui obcaecati debitis soluta voluptatibus, laboriosam repudiandae dolor reiciendis quidem laborum architecto officia fugit odit blanditiis, dolorem nesciunt, quo quaerat? Error debitis numquam ad, ducimus ea vel nostrum molestiae fuga expedita nulla sit delectus labore nihil cumque magni nam aut dicta laudantium ex illum. Aut ipsam aperiam fuga hic accusantium id expedita perferendis, error magni aspernatur ipsum totam, consectetur autem iste repellendus odit aliquid quos dolorem? Beatae inventore qui cumque iste esse similique asperiores est laborum tempora! Et dolores error obcaecati consectetur, harum eos totam eligendi optio eius amet. Enim alias hic officiis at vel quae fugit architecto repellat placeat, quas perspiciatis consequuntur adipisci accusantium reiciendis?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -944,7 +979,40 @@
                             <h5 class="member_designation">Ministry of Education</h5>
                             <p class="institute">Government of The People's Republic of Bangladesh</p>
                             <div class="view">
-                                <a href="#">view message</a>
+                                <a data-overlay-trigger="Dipu" href="#!">view message</a>
+                            </div>
+                            <div class="overlay" id="Dipu">
+                                <div class="modal">
+                                    <div class="model_content">
+                                        <div class="modal_header">
+                                            <h2>Massage from PM dipu</h2>
+                                            <div class="cancel">
+                                                <a href="#!" onclick="$('.overlay#Dipu').trigger('hide');return false;">&#215;</a>
+                                            </div>
+                                        </div>
+                                        <div class="popup_content">
+                                            <div class="image_container">
+                                                <img src="images/speech/atik.jpeg" alt="Popup Image">
+                                            </div>
+                                            <p>
+                                                Hon’ble Chairman, hasina
+                            
+                                                Manarat International University is a unique academic institute which has
+                                                different set of visions. We established MIU in order to provide quality
+                                                education and instill moral values to the students and thereby make them
+                                                educated future leaders with high moral standards. The Board of Trustees has
+                                                no profit motive and no one takes a single penny of profit from this
+                                                institute. Our sole goal is to serve the humanity. By the grace of Almighty
+                                                Allah, our university is gradually moving towards fulfilling the hopes and
+                                                dreams of our nation by creating skilled manpower and the required
+                                                leadership qualities. May Allah grant MIU success so that it can produce
+                                                worthy citizens for the cause of mankind.
+                    
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga in ratione quasi animi nulla delectus voluptates dolorum, assumenda, cupiditate ad, repellat cumque? Dolore earum repudiandae minus quibusdam. Labore obcaecati minima ab ipsam soluta consequatur quidem autem minus aliquid quo perferendis atque laboriosam porro impedit, repudiandae et repellat tenetur temporibus quibusdam aperiam aliquam blanditiis est! Ea, nesciunt consequuntur? Vitae, rem ducimus? Hic, et numquam. Cum tempore facere quod, obcaecati dolores nihil atque natus molestiae quisquam amet consequatur dicta, numquam quasi. Quae ut libero, fuga vel praesentium natus modi tempore vero quisquam exercitationem repudiandae aut harum. Qui obcaecati debitis soluta voluptatibus, laboriosam repudiandae dolor reiciendis quidem laborum architecto officia fugit odit blanditiis, dolorem nesciunt, quo quaerat? Error debitis numquam ad, ducimus ea vel nostrum molestiae fuga expedita nulla sit delectus labore nihil cumque magni nam aut dicta laudantium ex illum. Aut ipsam aperiam fuga hic accusantium id expedita perferendis, error magni aspernatur ipsum totam, consectetur autem iste repellendus odit aliquid quos dolorem? Beatae inventore qui cumque iste esse similique asperiores est laborum tempora! Et dolores error obcaecati consectetur, harum eos totam eligendi optio eius amet. Enim alias hic officiis at vel quae fugit architecto repellat placeat, quas perspiciatis consequuntur adipisci accusantium reiciendis?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -959,84 +1027,51 @@
                             <h5 class="member_designation">Convocation Speaker</h5>
                             <p class="institute">Dept. of Clinical Pharmacy & Pharmacology
                                 University</p>
-                            <div class="view">
-                                <a href="#">view message</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="convocation">
-        <div class="container">
-            <div class="row">
-                <div class="col-gl-12">
-                    <div class="section_title">
-                        <h3>convocation</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="year_container">
-                        <div class="year">
-                                <!-- Button to trigger the popup -->
-                                <button id="viewMessageButton">View Message</button>
-
-                                <!-- The popup container -->
-                                <div id="popupContainer">
-                                    <!-- Close button for the popup -->
-                                    <span class="close" id="closeButton">&times;</span>
-
-                                    <!-- Popup content -->
-                                    <div class="popupContent">
-                                        <img src="images/speech/atik.jpeg" alt="Popup Image">
-                                        <h2>Massage from PM</h2>
-                                        <p>
-                                            Hon’ble Chairman, BOT, MIU
-
-                                            Manarat International University is a unique academic institute which has
-                                            different set of visions. We established MIU in order to provide quality
-                                            education and instill moral values to the students and thereby make them
-                                            educated future leaders with high moral standards. The Board of Trustees has
-                                            no profit motive and no one takes a single penny of profit from this
-                                            institute. Our sole goal is to serve the humanity. By the grace of Almighty
-                                            Allah, our university is gradually moving towards fulfilling the hopes and
-                                            dreams of our nation by creating skilled manpower and the required
-                                            leadership qualities. May Allah grant MIU success so that it can produce
-                                            worthy citizens for the cause of mankind.
-                                        </p>
-                                        <h3></h3>
+                                <div class="view">
+                                    <a data-overlay-trigger="Azad" href="#!">view message</a>
+                                </div>
+                                <div class="overlay" id="Azad">
+                                    <div class="modal">
+                                        <div class="model_content">
+                                            <div class="modal_header">
+                                                <h2>Massage from PM dipu</h2>
+                                                <div class="cancel">
+                                                    <a href="#!" onclick="$('.overlay#Azad').trigger('hide');return false;">&#215;</a>
+                                                </div>
+                                            </div>
+                                            <div class="popup_content">
+                                                <div class="image_container">
+                                                    <img src="images/speech/atik.jpeg" alt="Popup Image">
+                                                </div>
+                                                <p>
+                                                    Hon’ble Chairman, hasina
+                                
+                                                    Manarat International University is a unique academic institute which has
+                                                    different set of visions. We established MIU in order to provide quality
+                                                    education and instill moral values to the students and thereby make them
+                                                    educated future leaders with high moral standards. The Board of Trustees has
+                                                    no profit motive and no one takes a single penny of profit from this
+                                                    institute. Our sole goal is to serve the humanity. By the grace of Almighty
+                                                    Allah, our university is gradually moving towards fulfilling the hopes and
+                                                    dreams of our nation by creating skilled manpower and the required
+                                                    leadership qualities. May Allah grant MIU success so that it can produce
+                                                    worthy citizens for the cause of mankind.
+                        
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga in ratione quasi animi nulla delectus voluptates dolorum, assumenda, cupiditate ad, repellat cumque? Dolore earum repudiandae minus quibusdam. Labore obcaecati minima ab ipsam soluta consequatur quidem autem minus aliquid quo perferendis atque laboriosam porro impedit, repudiandae et repellat tenetur temporibus quibusdam aperiam aliquam blanditiis est! Ea, nesciunt consequuntur? Vitae, rem ducimus? Hic, et numquam. Cum tempore facere quod, obcaecati dolores nihil atque natus molestiae quisquam amet consequatur dicta, numquam quasi. Quae ut libero, fuga vel praesentium natus modi tempore vero quisquam exercitationem repudiandae aut harum. Qui obcaecati debitis soluta voluptatibus, laboriosam repudiandae dolor reiciendis quidem laborum architecto officia fugit odit blanditiis, dolorem nesciunt, quo quaerat? Error debitis numquam ad, ducimus ea vel nostrum molestiae fuga expedita nulla sit delectus labore nihil cumque magni nam aut dicta laudantium ex illum. Aut ipsam aperiam fuga hic accusantium id expedita perferendis, error magni aspernatur ipsum totam, consectetur autem iste repellendus odit aliquid quos dolorem? Beatae inventore qui cumque iste esse similique asperiores est laborum tempora! Et dolores error obcaecati consectetur, harum eos totam eligendi optio eius amet. Enim alias hic officiis at vel quae fugit architecto repellat placeat, quas perspiciatis consequuntur adipisci accusantium reiciendis?
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="notice">
-                        <div id="notice_container">
-                            <div id="content1" class="hidden">
-                                <h2>Content 1</h2>
-                                <p>This is the first content.</p>
-                            </div>
-                            <div id="content2" class="hidden">
-                                <h2>Content 2</h2>
-                                <p>This is the second content.</p>
-                            </div>
-                            <div id="content3" class="hidden">
-                                <h2>Content 3</h2>
-                                <p>This is the third content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
+    
+
+    
     <!-- Notice Section Start -->
 
 
@@ -1053,6 +1088,8 @@
     <script src="js/slick.min.js"></script>
     <!-- typed animation js link -->
     <script src="js/typed.min.js"></script>
+    <!-- overlay popup js link -->
+    <script src="js/overlay.min.js"></script>
 
     <script src="js/script.js"></script>
 </body>

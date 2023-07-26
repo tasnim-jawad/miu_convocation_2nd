@@ -1,61 +1,61 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
-    .banner_1 .special_note{
+    .banner_every .special_note{
         bottom: 10%;
     }
-    .banner_1 .special_note span{
+    .banner_every .special_note span{
         font-size: 20px;
         line-height: 20px;
     }
-    .banner_content_1 h3{
+    .banner_content_every h3{
         font-size: 22px;
     }
-    .banner_content_1 h1{
+    .banner_content_every h1{
         font-size: 60px;
     }
-    .banner_content_1 .place_date{
+    .banner_content_every .place_date{
         font-size: 16px;
         line-height: 24px;
     }
-    .banner_content_1 .timer{
+    .banner_content_every .timer{
         width: 60%;
     }
-    .banner_content_1 .timer .time{
+    .banner_content_every .timer .time{
         width: 25%;
         font-size: 40px;
         
     }
-    .banner_content_1 .timer span{
+    .banner_content_every .timer span{
         font-size: 18px;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .banner_1 .special_note{
+    .banner_every .special_note{
         bottom: 12%;
     }
-    .banner_1 .special_note span{
+    .banner_every .special_note span{
         font-size: 24px;
         line-height: 24px;
     }
-    .banner_content_1 h3{
+    .banner_content_every h3{
         font-size: 30px;
     }
-    .banner_content_1 h1{
+    .banner_content_every h1{
         font-size: 80px;
     }
-    .banner_content_1 .place_date{
+    .banner_content_every .place_date{
         font-size: 20px;
         line-height: 28px;
     }
     
-    .banner_content_1 .timer .time{
+    .banner_content_every .timer .time{
         width: 25%;
         font-size: 48px;
         
     }
-    .banner_content_1 .timer span{
+    .banner_content_every .timer span{
         font-size: 20px;
     }
 
@@ -92,32 +92,32 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .banner_1 .special_note{
+    .banner_every .special_note{
         bottom: 15%;
     }
-    .banner_1 .special_note span{
+    .banner_every .special_note span{
         font-size: 30px;
         line-height: 30px;
     }
-    .banner_content_1 h3{
+    .banner_content_every h3{
         font-size: 30px;
     }
-    .banner_content_1 h1{
+    .banner_content_every h1{
         font-size: 100px;
     }
-    .banner_content_1 .place_date{
+    .banner_content_every .place_date{
         font-size: 24px;
         line-height: 30px;
     }
-    .banner_content_1 .timer{
+    .banner_content_every .timer{
         width: 50%;
     }
-    .banner_content_1 .timer .time{
+    .banner_content_every .timer .time{
         width: 25%;
         font-size: 50px;
         
     }
-    .banner_content_1 .timer span{
+    .banner_content_every .timer span{
         font-size: 20px;
     }
     .slicknav_menu{
