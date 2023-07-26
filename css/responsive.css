@@ -28,6 +28,7 @@
     .banner_content_every .timer span{
         font-size: 18px;
     }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -86,21 +87,29 @@
         transform: translateX(-110px);
         width: 70%;
     }
+    .speaker_container{
+        margin-right:0px ;
+    }
     .speaker_information{
         height: 100%;
         padding-bottom: 30px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: center;
         justify-content: end;
 
     }
     .speaker_information h2{
         text-align: left;
+        font-size: 20px;
+        line-height: 28px;
+        
     }
     .speaker_information h4{
         text-align: left;
+        font-size: 16px;
+        line-height: 18px;
+
     }
 
 

@@ -566,10 +566,10 @@ header{
 
 
 /* speaker part end  */
-.speaker_information{}
+
 .speaker_information h2{
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 10px;
     color: #000;
     text-transform: uppercase;
@@ -577,8 +577,8 @@ header{
     text-align: center;
 }
 .speaker_information h4{
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 16px;
     margin-bottom: 0px;
     color: #000;
     text-transform: capitalize;
