@@ -177,8 +177,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Placeholder variable for PDF file paths
   var pdfFiles = {
-    'Notice 2': 'images/Notice/notice2.pdf',
-    'Notice 1': 'images/Notice/notice1.pdf',
+    'Notice 2': '../images/Notice/notice2.pdf',
+    'Notice 1': '../images/Notice/notice1.pdf',
     // Add more notice titles and their corresponding PDF file paths
   };
 
