@@ -136,3 +136,5 @@ function closePopup() {
 // Event listeners
 viewMessageButton.addEventListener('click', showPopup);
 closeButton.addEventListener('click', closePopup);
+
+//notice section 

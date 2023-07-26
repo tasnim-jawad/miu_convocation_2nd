@@ -93,7 +93,20 @@ header{
 /* banner slick slid start  */
 
 #banner .banner_1{
-    background-image: url(../images/banner/banner_img_1.jpeg);
+    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 30px; */
+    /* background-attachment: fixed; */
+}
+#banner .banner_2{
+    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -760,4 +773,5 @@ header{
   .popupContent::-webkit-scrollbar {
     display: none;
   }
-  
+/*Notice Section Start */
+
