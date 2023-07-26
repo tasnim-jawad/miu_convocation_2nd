@@ -170,3 +170,25 @@ viewMessageButton.addEventListener('click', showPopup);
 closeButton.addEventListener('click', closePopup);
 
 //notice section 
+
+document.addEventListener('DOMContentLoaded', function() {
+  var noticeItems = document.querySelectorAll('.notice-item');
+  var pdfPreview = document.querySelector('.pdf-preview');
+  
+  // Placeholder variable for PDF file paths
+  var pdfFiles = {
+    'Notice 2': 'images/Notice/notice2.pdf',
+    'Notice 1': 'images/Notice/notice1.pdf',
+    // Add more notice titles and their corresponding PDF file paths
+  };
+
+  noticeItems.forEach(function(noticeItem) {
+    noticeItem.addEventListener('click', function() {
+      var noticeTitle = this.querySelector('.notice-title').textContent;
+      var pdfSrc = pdfFiles[noticeTitle];
+
+      // Update the PDF preview with the selected notice PDF
+      pdfPreview.innerHTML = '<embed src="' + pdfSrc + '" width="100%" height="100%" type="application/pdf">';
+    });
+  });
+});

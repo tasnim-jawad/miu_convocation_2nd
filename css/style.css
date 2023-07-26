@@ -777,5 +777,48 @@ header{
 
 
 
+
 /*Notice Section Start */
 
+.notice-section {
+    display: flex;
+  }
+  
+  .notice-list {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .notice-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .pdf-icon {
+    
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    margin-right: 10px;
+   
+  }
+  
+  .notice-title {
+    margin: 0;
+  }
+  
+  .notice-preview {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .pdf-preview {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+  }
