@@ -92,8 +92,8 @@ header{
 
 /* banner slick slid start  */
 
-#banner .banner_1{
-    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
+
+#banner .banner_every{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -104,20 +104,20 @@ header{
     align-items: center;
     /* padding-bottom: 30px; */
     /* background-attachment: fixed; */
+}
+#banner .banner_1{
+    background-image: url(../images/2nd_Convo_Photo/Banner-01.jpg);
 }
 #banner .banner_2{
-    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    /* padding-bottom: 30px; */
-    /* background-attachment: fixed; */
+    background-image: url(../images/2nd_Convo_Photo/Banner-new-2.jpg);
 }
+#banner .banner_3{
+    background-image: url(../images/banner/banner_img_3.jpeg);
+}
+#banner .banner_4{
+    background-image: url(../images/2nd_Convo_Photo/Banner-new-3.jpg);
+}
+
 .slick-dots {
     position: absolute;
     bottom: 0px;
@@ -171,13 +171,22 @@ header{
     margin-bottom: 0px;
 }
 
-.banner_content_1{
+.banner_content_every{
     padding: 30px 10px;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     z-index: 10;
 
 }
+.banner_4,
+.banner_3,
+.banner_2,
+.banner_1{
+    position: relative;
+}
+.banner_4 .overlay,
+.banner_3 .overlay,
+.banner_2 .overlay,
 .banner_1 .overlay{
     position: absolute;
     width: 100%;
@@ -185,14 +194,18 @@ header{
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
 }
-.banner_1 .special_note{
+
+.banner_4 .overlay{
+    background-color: rgba(0, 0, 0, .3);
+}
+.banner_every .special_note{
     position: absolute;
     bottom: 34px;
     z-index: 20;
     width: inherit;
     text-align: center;
 }
-.banner_1 .special_note span{
+.banner_every .special_note span{
     color: rgb(255, 255, 255);
     font-family: 'Barlow_Condensed-regular';
     font-size: 16px;
@@ -203,7 +216,7 @@ header{
     /* border-radius: 10px; */
     /* padding: 0px 20px; */
 }
-.banner_content_1 h3{
+.banner_content_every h3{
     font-size: 20px;
     color: white;
     font-weight: 500;
@@ -212,7 +225,7 @@ header{
     font-family:'Barlow_Condensed-Medium', Arial, sans-serif;
 
 }
-.banner_content_1 h1{
+.banner_content_every h1{
     font-size: 50px;
     color: #fff;
     line-height: .9;
@@ -223,13 +236,13 @@ header{
     /* max-width: 1111px; */
     margin: 0px auto 16px;
 }
-.banner_content_1 h1 span{
+.banner_content_every h1 span{
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
 }
-.banner_content_1 .place_date{
+.banner_content_every .place_date{
     font-size: 16px;
     line-height: 30px;
     font-family: 'Barlow_Condensed-regular', Arial, sans-serif;
@@ -238,19 +251,19 @@ header{
     margin-bottom: 20px;
 
 }
-.banner_content_1 .place_date span{
+.banner_content_every .place_date span{
     margin: 0px 15px;
 }
-.banner_content_1 .place_date span i{
+.banner_content_every .place_date span i{
     color: red;
     margin-right: 3px;
 }
-.banner_content_1 .timer{
+.banner_content_every .timer{
     width: 80%;
     margin: 0 auto;
     display: flex;
 }
-.banner_content_1 .timer .time{
+.banner_content_every .timer .time{
     width: 25%;
     font-size: 38px;
     font-weight: 500;
@@ -265,7 +278,7 @@ header{
     -ms-transform: matrix(1, 0.3, 0, 1, 0, 0);
     transform: matrix(1, 0.3, 0, 1, 0, 0);
 }
-.banner_content_1 .timer span{
+.banner_content_every .timer span{
     font-size: 16px;
     display: block;
     text-transform: uppercase;
@@ -664,7 +677,7 @@ header{
 #messages .member_body:hover .img_container img{
     scale: 1.05;
 }
-#messages .member_body .member_detail{}
+
 #messages .member_body .member_detail .member_name{
     font-family: 'Poppins-Medium';
     font-size: 18px;
