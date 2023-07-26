@@ -5,6 +5,7 @@ jQuery(function() {
     // alert("my name showed")
     $('.banner_all').slick({
         infinite: true,
+        autoplay:true,
         slidesToShow: 1,
         slidesToScroll: 1,
         speed: 500,
@@ -104,7 +105,7 @@ function updateCountdown() {
   } else {
     showCursor = false;
   }
-  var typed = new Typed('.note_text', {
+  var typed = new Typed('.note_text_1', {
     strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের উন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
     typeSpeed: 50,
     backSpeed: 10,
@@ -113,6 +114,34 @@ function updateCountdown() {
     loop: true,
     showCursor: showCursor,
   });
+  var typed = new Typed('.note_text_2' ,{
+    strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের উন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
+    typeSpeed: 50,
+    backSpeed: 10,
+    startDelay: 500,
+    backDelay: 1000,
+    loop: true,
+    showCursor: showCursor,
+  });
+  var typed = new Typed('.note_text_3' ,{
+    strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের উন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
+    typeSpeed: 50,
+    backSpeed: 10,
+    startDelay: 500,
+    backDelay: 1000,
+    loop: true,
+    showCursor: showCursor,
+  });
+  var typed = new Typed('.note_text_4' ,{
+    strings: ["জরুরী নোটিস", " ২য় সমাবর্তনের উন ও অনান্য গিফট সামগ্রি গুলশান ক্যম্পাস থেকে সংগ্রহ করতে হবে","আগামি ২৭ ও ২৮ জুলাই, ২০২৩ সকাল ৯:০০ টা থেকে ৫:০০ টার মধ্যে "],
+    typeSpeed: 50,
+    backSpeed: 10,
+    startDelay: 500,
+    backDelay: 1000,
+    loop: true,
+    showCursor: showCursor,
+  });
+  
   
 
 
